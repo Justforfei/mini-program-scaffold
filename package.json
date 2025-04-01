@@ -1,0 +1,18 @@
+{
+  "name": "mini-program-scaffold",
+  "version": "1.0.0",
+  "description": "小程序快速开发脚手架",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "npm run build && npm run watch",
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "miniprogram-api-typings": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  }
+}
